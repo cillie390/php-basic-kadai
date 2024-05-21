@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="ja">
+<html lang="ja">
  
  <head>
      <meta charset="UTF-8">
@@ -9,13 +9,11 @@
  <body>
      <p>
          <?php
-          $personal_date = ['名前' =>'玉ねぎ','値段'=>200,'産地'=>'北海道'];
-          foreach($personal_date as $personal_date){
-            echo $personal_date . '<br>';
-          }
-
+          $variable_name = ['id' =>'1','名前'=>'侍太郎','年齢'=>30];
+          foreach ($variable_name as  $rabel =>$value){
+            echo  "{$rabel}: {$value}<br>";}
+          
         ?>
       </p>
   </body>
-
 </html>
